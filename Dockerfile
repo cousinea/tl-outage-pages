@@ -3,7 +3,7 @@ FROM httpd:2.4
 EXPOSE 80
 #EXPOSE 443
 
-RUN rm /usr/local/apache2/htdocs/index.html
+#RUN rm /usr/local/apache2/htdocs/index.html
 
 ### Start script incorporates config files and sends logs to stdout ###
 COPY start.sh .
