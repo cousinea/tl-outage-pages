@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM httpd:2.4.27
 
 EXPOSE 80
 #EXPOSE 443
