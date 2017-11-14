@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 FROM apache2-cosign:2.4.29
-=======
-FROM httpd:2.4.27
->>>>>>> 2df7c6d48dade502c75b26b2f8471b59291c85aa
 
-EXPOSE 80
-#EXPOSE 443
+#EXPOSE 80
+EXPOSE 443
 
 #RUN rm /usr/local/apache2/htdocs/index.html
 
