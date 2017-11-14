@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM apache2-cosign:2.4.29
 
 EXPOSE 443
 
